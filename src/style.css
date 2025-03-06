@@ -1,0 +1,74 @@
+body {
+  background-color: #dacecf;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+a {
+  color: #6f3c31;
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 120px;
+
+  max-width: 600px;
+
+  padding: 25px;
+}
+header {
+  margin-bottom: 20px;
+}
+h1 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.5;
+  text-align: center;
+}
+form {
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  margin-bottom: 24px;
+}
+.prompt {
+  padding: 16px;
+  border: 1px solid #bbb6b6;
+  width: 75%;
+  font-size: 16px;
+  border-radius: 50px;
+  line-height: 20px;
+}
+.button {
+  padding: 16px 25px;
+  background-color: #6f3c31;
+  border: 1px solid #6f3c31;
+  color: white;
+  margin-left: 10px;
+  font-size: 16px;
+  border-radius: 50px;
+  line-height: 20px;
+  transition: 200ms all ease-in-out;
+}
+.button:hover {
+  background-color: white;
+  color: #6f3c31;
+  cursor: pointer;
+}
+.poem {
+  font-size: 16px;
+  background-color: white;
+  padding: 20px;
+  line-height: 2;
+  font-weight: 400;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  border-radius: 3px;
+  border-left: 3px solid #6f3c31;
+}
+footer {
+  font-size: 12px;
+  margin-top: 10px;
+  text-align: center;
+}
