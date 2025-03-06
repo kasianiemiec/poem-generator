@@ -18,8 +18,9 @@ function handleSubmit(event) {
 
   axios.get(apiUrl).then(displayResponse);
 
-  let poem = document.querySelector("poem");
-  poem.innerHTML = "Generating a heiku for you...";
+  let poem = document.querySelector("#poem");
+  poem.classList.remove("hidden");
+  poem.innerHTML = `<div class="blink">Generating a heiku about ${subject.value}...</div>`;
 }
 
 let poemFormElemnt = document.querySelector("#poem-generator-form");
